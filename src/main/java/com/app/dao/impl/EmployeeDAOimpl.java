@@ -110,25 +110,25 @@ public class EmployeeDAOimpl implements EmployeeDAO{
 			throw new BusinessException("Internal error occured contact sysadmin");
 		}
 	}
-	@Override
-	public boolean modifyproductquantity(int productid, int newquantity) throws BusinessException {
-		try(Connection connection=MySqlDbConnection.getConnection()){
-			String sql="Update Products set productquantity=? where productid=?";
-			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			preparedStatement.setInt(1,newquantity);
-			preparedStatement.setInt(2,productid);
-
-			int res=preparedStatement.executeUpdate();
-			if(res==1) {
-				return true;
-			}else {
-				throw new BusinessException("Server Error: Could not update Product quantity");
-			}
-		} catch (ClassNotFoundException | SQLException e) {
-			log2.error(e);
-			throw new BusinessException("Internal error occured contact sysadmin");
-		}
-	}//end of method
+//	@Override
+//	public boolean modifyproductquantity(int productid, int newquantity) throws BusinessException {
+//		try(Connection connection=MySqlDbConnection.getConnection()){
+//			String sql="Update Products set productquantity=? where productid=?";
+//			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+//			preparedStatement.setInt(1,newquantity);
+//			preparedStatement.setInt(2,productid);
+//
+//			int res=preparedStatement.executeUpdate();
+//			if(res==1) {
+//				return true;
+//			}else {
+//				throw new BusinessException("Server Error: Could not update Product quantity");
+//			}
+//		} catch (ClassNotFoundException | SQLException e) {
+//			log2.error(e);
+//			throw new BusinessException("Internal error occured contact sysadmin");
+//		}
+//	}//end of method
 	@Override
 	public boolean updateorderbyemployee(List<Integer> olist) throws BusinessException {
 		int ab=0;

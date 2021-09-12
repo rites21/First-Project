@@ -8,7 +8,7 @@ import com.app.model.Orders;
 public interface EmployeeSearchService {
 	
 	public boolean addnewproducts() throws BusinessException;
-	public boolean modifyproductsquantity(int productid) throws BusinessException;
+//	public boolean modifyproductsquantity(int productid) throws BusinessException;
 	public boolean deleteproduct(int productid) throws BusinessException;
 	public List<Customers> viewcustomerdetails() throws BusinessException;
 

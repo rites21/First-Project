@@ -9,7 +9,7 @@ import com.app.model.Orders;
 public interface EmployeeDAO {
 	public boolean addproduct(Products product) throws BusinessException;
 	public boolean deleteproduct(int productid) throws BusinessException;
-	public boolean modifyproductquantity(int productid,int newquantity) throws BusinessException;
+//	public boolean modifyproductquantity(int productid,int newquantity) throws BusinessException;
 	
 	public List<Customers> getallcustomers() throws BusinessException;
 	public int markshipped(Products product) throws BusinessException;

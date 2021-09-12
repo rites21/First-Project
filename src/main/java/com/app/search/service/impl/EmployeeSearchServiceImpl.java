@@ -81,17 +81,17 @@ public class EmployeeSearchServiceImpl implements EmployeeSearchService{
 		return customerlist;
 	}
 
-	@Override
-	public boolean modifyproductsquantity(int productid) throws BusinessException {
-		log1.info("Enter New Quantity : ");
-		int newquantity=Integer.parseInt(sc.nextLine());
-		try {
-		if(employeesearchdao.modifyproductquantity(productid,newquantity))
-		{return true;}
-		else
-		{return false;}
-		}catch(Exception e) {return false;}
-	}
+//	@Override
+//	public boolean modifyproductsquantity(int productid) throws BusinessException {
+//		log1.info("Enter New Quantity : ");
+//		int newquantity=Integer.parseInt(sc.nextLine());
+//		try {
+//		if(employeesearchdao.modifyproductquantity(productid,newquantity))
+//		{return true;}
+//		else
+//		{return false;}
+//		}catch(Exception e) {return false;}
+//	}
 
 	@Override
 	public boolean deleteproduct(int productid) throws BusinessException {

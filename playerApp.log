@@ -1,0 +1,102 @@
+[main] 2021-09-09 15:02:19 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-09-09 15:02:29 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-09-09 15:02:29 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-09-09 15:02:36 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-09-09 15:02:36 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-09-09 15:02:36 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-09-09 15:02:36 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-09-09 15:02:36 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-09-09 15:02:36 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-09-09 15:02:36 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-09-12 22:30:14 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-09-12 22:30:21 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-09-12 22:30:21 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-09-12 22:30:31 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-09-12 22:30:31 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-09-12 22:30:31 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-09-12 22:30:31 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-09-12 22:30:31 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-09-12 22:30:31 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-09-12 22:30:31 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-09-12 22:30:37 INFO  com.app.EmployeeLogin  - Logging out
+[main] 2021-09-12 22:30:37 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-09-12 22:30:43 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-09-12 22:30:43 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-09-12 22:30:52 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-09-12 22:30:52 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-09-12 22:32:17 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-09-12 22:32:21 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-09-12 22:32:21 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-09-12 22:32:31 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-09-12 22:32:31 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-09-12 22:32:31 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-09-12 22:32:31 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-09-12 22:32:31 INFO  com.app.EmployeeLogin  - 4. Modify Quantity of Existing Products
+[main] 2021-09-12 22:32:31 INFO  com.app.EmployeeLogin  - 5. Delete Existing Product
+[main] 2021-09-12 22:32:31 INFO  com.app.EmployeeLogin  - 6. Logout
+[main] 2021-09-12 22:47:55 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-09-12 22:48:00 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-09-12 22:48:00 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-09-12 22:48:00 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-09-12 22:48:00 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-09-12 22:48:16 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-09-12 22:48:16 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-09-12 22:48:26 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-09-12 22:48:33 WARN  com.app.EmployeeLogin  - Internal Server Error: Forced Logout or Login Error(Invalid Credentials)
+[main] 2021-09-12 22:48:33 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-09-12 22:48:33 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-09-12 22:48:33 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-09-12 22:48:33 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-09-12 22:50:11 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-09-12 22:50:11 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-09-12 22:50:18 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-09-12 22:50:21 INFO  com.app.EmployeeLogin  - Login Successful
+[main] 2021-09-12 22:50:21 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-09-12 22:50:21 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-09-12 22:50:21 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-09-12 22:50:21 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-09-12 22:50:21 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-09-12 22:54:04 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-09-12 22:54:04 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-09-12 22:54:30 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-09-12 22:54:38 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-09-12 22:54:38 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-09-12 22:54:59 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-09-12 22:54:59 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-09-12 22:54:59 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-09-12 22:54:59 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-09-12 22:54:59 INFO  com.app.EmployeeLogin  - 4. Delete Existing Product
+[main] 2021-09-12 22:54:59 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-09-12 22:55:05 INFO  com.app.EmployeeLogin  - Remove Existing Product
+[main] 2021-09-12 22:55:05 INFO  com.app.EmployeeLogin  - Enter Product Id to Remove:

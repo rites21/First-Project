@@ -18,7 +18,7 @@ import com.app.search.service.impl.EmployeeSearchServiceImpl;
 
 public class Main {
 	public static boolean employeecredentialscheck(String empname, String emppassword){
-		if(empname.equals("abc") && emppassword.equals("abc"))
+		if(empname.equals("ritesh") && emppassword.equals("ritesh"))
 			return true;
 		else
 			return false;
@@ -43,8 +43,8 @@ public class Main {
 //xxxxxxxxxEmployee login page//
 			case 1:int choice=0,ch=0;
 				EmployeeSearchService employeesearchserviceobject = new EmployeeSearchServiceImpl();
-				System.out.println("-------SHOP PROJECT------");
-				System.out.println("---EMPLOYEE LOGIN PAGE---");
+				System.out.println("*HELLO  Employee!* Welcome to Ritesh's Shopping App");
+				System.out.println("**********EMPLOYEE LOGIN--**********");
 				do {
 				logmain.info("1.Login");
 				logmain.info("2.Exit");
@@ -62,9 +62,9 @@ public class Main {
 					logmain.info("1. View Customers Details");
 					logmain.info("2. Add a new Product");
 					logmain.info("3. Mark Order as Shipped");
-					logmain.info("4. Modify Quantity of Existing Products");
-					logmain.info("5. Delete Existing Product");
-					logmain.info("6. Logout");
+					//logmain.info("4. Modify Quantity of Existing Products");
+					logmain.info("4. Delete Existing Product");
+					logmain.info("5. Logout");
 					ch=Integer.parseInt(sc.nextLine());
 					switch(ch){
 					case 1:logmain.info("Showing Customer Details");
@@ -123,17 +123,17 @@ public class Main {
 									}
 							}catch (BusinessException e)
 								{logmain.warn(e.getMessage());}
-							break;
-					case 4:logmain.info("Modify Quantity of Existing Products");
-							try{
-								logmain.info("Enter Product Id to modify quantity for that product:");
-								int id2=Integer.parseInt(sc.nextLine());
-								boolean answer2=employeesearchserviceobject.modifyproductsquantity(id2);
-								if(answer2==true) {logmain.info("Product Quantity Updated Successfully");}
-								else {logmain.warn("Internal Server Error: Could not update product quantity");}
-							}catch(BusinessException e) {logmain.warn(e.getMessage());}
-						   break;
-					case 5:logmain.info("Remove Existing Product");
+//							break;
+//					case 4:logmain.info("Modify Quantity of Existing Products");
+//							try{
+//								logmain.info("Enter Product Id to modify quantity for that product:");
+//								int id2=Integer.parseInt(sc.nextLine());
+//								boolean answer2=employeesearchserviceobject.modifyproductsquantity(id2);
+//								if(answer2==true) {logmain.info("Product Quantity Updated Successfully");}
+//								else {logmain.warn("Internal Server Error: Could not update product quantity");}
+//							}catch(BusinessException e) {logmain.warn(e.getMessage());}
+//						   break;
+					case 4:logmain.info("Remove Existing Product");
 							try{
 							logmain.info("Enter Product Id to Remove:");
 							int id3=Integer.parseInt(sc.nextLine());
@@ -142,7 +142,7 @@ public class Main {
 							else {logmain.warn("Internal Server Error: Could not remove product");}
 							}catch(BusinessException e) {logmain.warn(e.getMessage());}
 							break;
-					case 6:logmain.info("Logging out");
+					case 5:logmain.info("Logging out");
 							choice=2;
 					       break;
 					default:logmain.info("Incorrect Choice : Enter Correct Choice");
@@ -162,8 +162,8 @@ public class Main {
 						break;
 //*******************************************start of customer login********************************************
 				case 2:CustomerSearchService customersearchserviceobject = new CustomerSearchServiceImpl();
-				System.out.println("-------SHOP PROJECT------");
-				System.out.println("---CUSTOMER LOGIN PAGE---");
+				System.out.println("*HELLO CUSTOMER!* Wemcome to Ritesh's Shopping APP");
+				System.out.println("**********CUSTOMER LOGIN--*********");
 				String id,password;
 				int choice2,option=0;
 				do {
