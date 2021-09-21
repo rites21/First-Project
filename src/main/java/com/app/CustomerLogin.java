@@ -17,8 +17,9 @@ public class CustomerLogin {
 
 	public static void main(String[] args) {
 		CustomerSearchService customersearchserviceobject = new CustomerSearchServiceImpl();
-		System.out.println("-------SHOP PROJECT------");
-		System.out.println("---CUSTOMER LOGIN PAGE---");
+		System.out.println("*HELLO CUSTOMER!* Wemcome to Ritesh's Shopping APP");
+		System.out.println("**********CUSTOMER LOGIN--*********");
+
 		Scanner sc=new Scanner(System.in);
 		String id,password;
 		int choice,option=0;

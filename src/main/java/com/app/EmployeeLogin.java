@@ -14,7 +14,7 @@ import com.app.search.service.impl.EmployeeSearchServiceImpl;
 
 public class EmployeeLogin {
 	public static boolean employeecredentialscheck(String empname, String emppassword){
-		if(empname.equals("abc") && emppassword.equals("abc"))
+		if(empname.equals("ritesh") && emppassword.equals("ritesh"))
 			return true;
 		else
 			return false;
@@ -33,8 +33,8 @@ public class EmployeeLogin {
 		int choice=0,ch=0;
 		Scanner sc=new Scanner(System.in);
 		EmployeeSearchService employeesearchserviceobject = new EmployeeSearchServiceImpl();
-		System.out.println("-------SHOP PROJECT------");
-		System.out.println("---EMPLOYEE LOGIN PAGE---");
+		System.out.println("*HELLO  Employee!* Welcome to Ritesh's Shopping App");
+		System.out.println("**********EMPLOYEE LOGIN--**********");
 		do {
 		log.info("1.Login");
 		log.info("2.Exit");

@@ -100,3 +100,107 @@ Employee login Successful
 [main] 2021-09-12 22:54:59 INFO  com.app.EmployeeLogin  - 5. Logout
 [main] 2021-09-12 22:55:05 INFO  com.app.EmployeeLogin  - Remove Existing Product
 [main] 2021-09-12 22:55:05 INFO  com.app.EmployeeLogin  - Enter Product Id to Remove:
+[main] 2021-09-12 22:58:44 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-09-12 23:18:51 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-09-12 23:18:57 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-09-12 23:18:57 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-09-12 23:18:57 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-09-12 23:18:57 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-09-12 23:19:01 INFO  com.app.EmployeeLogin  - Registering New Account
+[main] 2021-09-12 23:19:01 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - Enter CustomerId(We will check if its available or not)
+[main] 2021-09-12 23:19:01 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - Its Recommended to make an Id with your name plus numbers(ash999)
+[main] 2021-09-12 23:19:01 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - Enter here:
+[main] 2021-09-12 23:19:18 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - password
+[main] 2021-09-12 23:19:21 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - firstname
+[main] 2021-09-12 23:19:22 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - lastname
+[main] 2021-09-12 23:19:22 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - email
+[main] 2021-09-12 23:19:22 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - address
+[main] 2021-09-12 23:19:23 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - gender
+[main] 2021-09-12 23:19:23 INFO  com.app.search.service.impl.CustomerSearchServiceImpl  - contactno
+[main] 2021-09-12 23:19:23 INFO  com.app.EmployeeLogin  - Registration Successful
+[main] 2021-09-12 23:19:23 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-09-12 23:19:23 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-09-12 23:19:23 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-09-12 23:19:23 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-09-12 23:19:29 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-09-12 23:19:29 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-09-12 23:19:34 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-09-12 23:19:38 WARN  com.app.EmployeeLogin  - Internal Server Error: Forced Logout or Login Error(Invalid Credentials)
+[main] 2021-09-12 23:19:38 INFO  com.app.EmployeeLogin  - 
+1. Register New Account
+[main] 2021-09-12 23:19:38 INFO  com.app.EmployeeLogin  - 2. Login
+[main] 2021-09-12 23:19:38 INFO  com.app.EmployeeLogin  - 3. Exit
+[main] 2021-09-12 23:19:38 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-09-12 23:20:38 INFO  com.app.EmployeeLogin  - Login
+[main] 2021-09-12 23:20:38 INFO  com.app.EmployeeLogin  - Enter Your ID
+[main] 2021-09-12 23:20:44 INFO  com.app.EmployeeLogin  - Enter Password
+[main] 2021-09-12 23:20:47 INFO  com.app.EmployeeLogin  - Login Successful
+[main] 2021-09-12 23:20:47 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-09-12 23:20:47 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-09-12 23:20:47 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-09-12 23:20:47 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-09-12 23:20:47 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - Showing All Products
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - Total there are 6 number of Products you can buy
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - Product [ProductId=1, Product Name=ON GOLD, ProductType=Whey Protein, ProductPrice=5400.0, ProductQuantity=1, ProductCompany=ON]
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - Product [ProductId=2, Product Name=Muscleblaze Performance, ProductType=Whey Protein, ProductPrice=4000.0, ProductQuantity=2, ProductCompany=MB]
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - Product [ProductId=3, Product Name=GNC Performance, ProductType=Whey Protein, ProductPrice=3500.0, ProductQuantity=1, ProductCompany=GNC]
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - Product [ProductId=4, Product Name=ON Multivitamin, ProductType=Vitamins, ProductPrice=1500.0, ProductQuantity=60, ProductCompany=ON]
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - Product [ProductId=5, Product Name=Caffine Pro, ProductType=Vitamins, ProductPrice=1100.0, ProductQuantity=30, ProductCompany=myprotein]
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - Product [ProductId=6, Product Name=Mass Gainer, ProductType=Bodybuilding, ProductPrice=2000.0, ProductQuantity=3, ProductCompany=My Protein]
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - 1. Add to Cart
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-09-12 23:20:49 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-09-12 23:20:53 INFO  com.app.EmployeeLogin  - Going Back!!
+[main] 2021-09-12 23:20:53 INFO  com.app.EmployeeLogin  - 
+1. View All Products
+[main] 2021-09-12 23:20:53 INFO  com.app.EmployeeLogin  - 2. View your Cart
+[main] 2021-09-12 23:20:53 INFO  com.app.EmployeeLogin  - 3. View your Orders
+[main] 2021-09-12 23:20:53 INFO  com.app.EmployeeLogin  - 4. Log out
+[main] 2021-09-12 23:20:53 INFO  com.app.EmployeeLogin  - Enter your choice
+[main] 2021-09-12 23:20:57 INFO  com.app.EmployeeLogin  - Your Orders
+[main] 2021-09-12 23:20:57 INFO  com.app.EmployeeLogin  - Total there are 1 number of your Orders
+[main] 2021-09-12 23:20:57 INFO  com.app.EmployeeLogin  - Orders [orderid=1, productid=1, productname=ON GOLD, customerid=ritesh123, total=5400.0, customerstatus=Not Received, sellerstatus=Shipped]
+[main] 2021-09-12 23:20:57 INFO  com.app.EmployeeLogin  - Your Orders Total: 5400.0
+[main] 2021-09-12 23:20:57 INFO  com.app.EmployeeLogin  - 1. Mark Multiple Orders as Received
+[main] 2021-09-12 23:20:57 INFO  com.app.EmployeeLogin  - 2. Go back
+[main] 2021-09-12 23:20:57 INFO  com.app.EmployeeLogin  - Enter Choice
+[main] 2021-09-12 23:21:11 INFO  com.app.EmployeeLogin  - Welcome User
+1. Login as Employee
+2. Login as Customer
+3. Exit App
+Enter your choice:
+[main] 2021-09-12 23:21:16 INFO  com.app.EmployeeLogin  - 1.Login
+[main] 2021-09-12 23:21:16 INFO  com.app.EmployeeLogin  - 2.Exit
+[main] 2021-09-12 23:21:25 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-09-12 23:21:25 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-09-12 23:21:25 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-09-12 23:21:25 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-09-12 23:21:25 INFO  com.app.EmployeeLogin  - 4. Delete Existing Product
+[main] 2021-09-12 23:21:25 INFO  com.app.EmployeeLogin  - 5. Logout
+[main] 2021-09-12 23:21:29 INFO  com.app.EmployeeLogin  - Add New Products
+[main] 2021-09-12 23:21:29 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Enter Product Name
+[main] 2021-09-12 23:21:57 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Type
+[main] 2021-09-12 23:22:10 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Price
+[main] 2021-09-12 23:22:17 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Quantity
+[main] 2021-09-12 23:22:20 INFO  com.app.search.service.impl.EmployeeSearchServiceImpl  - Product Company
+[main] 2021-09-12 23:22:34 INFO  com.app.EmployeeLogin  - New Product Added Successfully
+[main] 2021-09-12 23:22:34 INFO  com.app.EmployeeLogin  - 
+Employee login Successful
+[main] 2021-09-12 23:22:34 INFO  com.app.EmployeeLogin  - 1. View Customers Details
+[main] 2021-09-12 23:22:34 INFO  com.app.EmployeeLogin  - 2. Add a new Product
+[main] 2021-09-12 23:22:34 INFO  com.app.EmployeeLogin  - 3. Mark Order as Shipped
+[main] 2021-09-12 23:22:34 INFO  com.app.EmployeeLogin  - 4. Delete Existing Product
+[main] 2021-09-12 23:22:34 INFO  com.app.EmployeeLogin  - 5. Logout

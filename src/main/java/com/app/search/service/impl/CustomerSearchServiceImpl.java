@@ -24,7 +24,7 @@ public class CustomerSearchServiceImpl implements CustomerSearchService{
 		int i=0;
 		try{
 			logs.info("Enter CustomerId(We will check if its available or not)");
-			logs.info("Its Recommended to make an Id with your name plus numbers(ash999)");
+			logs.info("Its Recommended to make an Id with your name with numbers(abc123)");
 			do{
 				logs.info("Enter here:");
 				String cid=sc.nextLine();
