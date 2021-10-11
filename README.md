@@ -7,20 +7,36 @@ The Online Shopping is a console-based menu driven application that simulates on
 
 ## Technologies used:
 
-Java,
-Maven,
-JDBC,
-Log4J,
-MySQL,
-JUnit.
+#### Java 
+#### Maven,
+#### JDBC,
+#### Log4J,
+#### MySQL,
+#### JUnit.
 
 ## Dependencies in Shopping app
-Maven,
-JDBC driver,
-Junit.
+#### Maven,
+#### JDBC driver,
+#### Junit.
+
 ## Tools used
-Eclipse,
-JDK 1.8,
-MySQL.
+#### Eclipse,
+#### JDK 1.8,
+#### MySQL.
+
+
+
+  
+## Features
+
+- Customer login page
+- Employee login page
+- Customer can buy/track prdoduct
+- Employee can ship/modified/change product
+
+  
+## Support
+
+For support, email riteshhit2017@gmail.com.
 
   
